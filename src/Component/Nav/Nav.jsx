@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Nav.css'
-import logo from '../../Assets/logo.jpg'
+import logo from '../../assets/logo.jpg'
 import { Link } from "react-scroll";
 
 
