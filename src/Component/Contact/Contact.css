@@ -1,0 +1,71 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.footer .title {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer .phone {
+    margin: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer .logo {
+    width: 180px;
+    height: 200px;
+}
+
+img {
+    width: 30px;
+}
+
+.footer .email {
+    margin: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer ul {
+    cursor: pointer;
+    display: flex;
+    gap: 50px;
+
+    list-style: none;
+    margin-top: 120px;
+}
+
+.footer ul li a {
+    position: relative;
+    text-decoration: none;
+    color: var(--green);
+}
+
+.footer ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #076e17;
+    transition: 0.3s;
+}
+
+.footer ul li a:hover::after {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .footer ul {
+        display: none;
+    }
+}
