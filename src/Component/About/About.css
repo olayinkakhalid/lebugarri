@@ -54,6 +54,19 @@
 
         margin: 0px 20px;
     }
+
+    .about .title {
+        font-size: 35px;
+    }
+
+    .about .sub-title {
+        font-size: 20px;
+    }
+
+    .about .content {
+        font-size: 14px;
+        line-height: 2em;
+    }
 }
 
 @media (max-width: 321px) {

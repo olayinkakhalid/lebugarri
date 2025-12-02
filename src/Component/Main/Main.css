@@ -89,7 +89,15 @@
 
 @media (max-width: 426px) {
     .main img {
-        width: 330px;
+        width: 280px;
+    }
+
+     .main .article .title {
+        font-size: 18px;
+    }
+
+    .main .article .info {
+        font-size: 15px;
     }
 }
 
