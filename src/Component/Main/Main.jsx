@@ -11,7 +11,7 @@ const Main = () => {
     }, []);
 
     return (
-        <div className='main' data-aos="flip-up">
+        <div className='main' data-aos="fade-up">
 
 
             <div className="article">

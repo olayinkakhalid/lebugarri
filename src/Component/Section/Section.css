@@ -48,3 +48,24 @@
         flex-direction: column;
     }
 }
+
+
+@media (max-width: 321px) {
+    .section .title {
+        font-size: 25px;
+    }
+
+    .section .subtitle {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+
+    .section .ul-display ul li {
+        font-size: 13px;
+    }
+
+    .section ul {
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+}

@@ -142,3 +142,9 @@ button:active:before {
     margin-top: 10px;
   }
 }
+
+@media (max-width: 321px) {
+  .nav .button {
+    width: 80px;
+  }
+}

@@ -61,3 +61,19 @@
         margin-top: 20px;
     }
 }
+
+@media (max-width: 426px) {
+    .header .content {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 321px) {
+    .header .banner {
+        width: 180px;
+    }
+
+    .header .content {
+        font-size: 45px;
+    }
+}

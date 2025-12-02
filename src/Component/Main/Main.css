@@ -23,6 +23,7 @@
     font-size: 50px;
     color: var(--green);
     margin-bottom: 20px;
+    margin-top: -30px;
 }
 
 .main .article .info {
@@ -83,5 +84,31 @@
 
     .main img {
         width: 700px;
+    }
+}
+
+@media (max-width: 426px) {
+    .main img {
+        width: 330px;
+    }
+}
+
+@media (max-width: 321px) {
+    .main img {
+        /* width: 200px; */
+
+        display: none;
+    }
+
+    .main .article .title {
+        font-size: 18px;
+    }
+
+    .main .article .info {
+        font-size: 15px;
+    }
+
+    .main .article .title {
+        margin-top: -60px;
     }
 }

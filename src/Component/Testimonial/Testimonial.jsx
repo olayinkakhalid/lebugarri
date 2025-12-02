@@ -10,7 +10,7 @@ const Testimonial = () => {
     }, []);
 
     return (
-        <div className='testimonial' data-aos="zoom-in">
+        <div className='testimonial' data-aos="fade-up">
             <p className='title'>
                 Testimonial
             </p>
@@ -23,7 +23,7 @@ const Testimonial = () => {
                         <p> Lorem ipsum dolor</p>
                     </div>
 
-                    <p>
+                    <p className='content'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo corrupti tempore nihil neque similique, animi quos necessitatibus aperiam minus id nisi quas quibusdam sit voluptatibus laboriosam dolorum esse eligendi alias?
                     </p>
                 </div>

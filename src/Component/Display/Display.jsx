@@ -17,14 +17,14 @@ const Display = () => {
 
     const slideForward = () => {
         if (tx > -50) {
-            tx -= 18;
+            tx -= 35;
         }
         flex.current.style.transform = `translateX(${tx}%)`
     }
 
     const slideBackward = () => {
         if (tx < 0) {
-            tx += 18;
+            tx += 35;
         }
         flex.current.style.transform = `translateX(${tx}%)`
     }
@@ -33,7 +33,7 @@ const Display = () => {
         <div className='display'>
             <img src={back_icon} alt="" className='back-btn' onClick={slideBackward} />
 
-            <div className="img-flex container flex" >
+            <div className="img-flex container flex">
                 <ul ref={flex}>
                     <li>
                         <img src={img1} alt="" className='img1' />
@@ -69,6 +69,42 @@ const Display = () => {
             </div>
 
             <img src={next_icon} alt="" className='next-btn' onClick={slideForward} />
+
+
+            <div className="slider">
+                <ul>
+                    <li>
+                        <img src={img1} alt="" className='img1' />
+                    </li>
+
+
+                    <li>
+                        <img src={img2} alt="" className='img2' />
+                    </li>
+
+                    <li>
+                        <img src={img3} alt="" className='img3' />
+                    </li>
+
+                    <li>
+                        <img src={img4} alt="" className='img4' />
+                    </li>
+
+
+                    <li>
+                        <img src={img8} alt="" className='img8' />
+                    </li>
+
+                    <li>
+                        <img src={img9} alt="" className='img9' />
+                    </li>
+
+                    <li>
+                        <img src={img6} alt="" className='img6' />
+                    </li>
+
+                </ul>
+            </div>
         </div>
     )
 }

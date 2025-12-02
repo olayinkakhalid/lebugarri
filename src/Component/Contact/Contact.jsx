@@ -43,6 +43,21 @@ const Contact = () => {
                 Mufadentltd@gmail.com
             </p>
 
+
+            <div className="icons">
+
+
+                <p>
+                    <a href=""> contact us on whatsapp </a>
+                    <img src={whatsapp} alt="" />
+                </p>
+
+                <p>
+                    <a href="">contact us on mail</a>
+                    <img src={gmail} alt="" />
+                </p>
+            </div>
+
         </div>
     )
 }
