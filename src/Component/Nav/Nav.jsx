@@ -50,8 +50,8 @@ const Nav = () => {
                     </svg>
                 </button>
                 <button class="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" aria-hidden="true" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
-                        <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linejoin="round" stroke-linecap="round"></path>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="0" fill="currentColor" stroke="currentColor" class="icon">
+                        <path d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10 10-4.49 10-10S17.51 2 12 2zm7.93 9h-3.02a14.78 14.78 0 0 0-1.21-4.5A8.03 8.03 0 0 1 19.93 11zM12 4c1.53 1.8 2.58 4.13 2.9 7h-5.8c.32-2.87 1.37-5.2 2.9-7zm-4.7 1.5A14.78 14.78 0 0 0 6.09 11H3.07a8.03 8.03 0 0 1 4.23-5.5zM3.07 13h3.02c.26 2.03 1.01 3.89 2.21 5.5A8.03 8.03 0 0 1 3.07 13zm8.93 7c-1.53-1.8-2.58-4.13-2.9-7h5.8c-.32 2.87-1.37 5.2-2.9 7zm4.7-1.5c1.2-1.61 1.95-3.47 2.21-5.5h3.02a8.03 8.03 0 0 1-4.23 5.5z" />
                     </svg>
                 </button>
                 <button class="button">
