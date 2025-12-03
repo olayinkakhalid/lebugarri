@@ -15,6 +15,9 @@
     gap: 20px;
     /* width: auto;
     height: auto; */
+
+    width: 96%;
+    margin: auto;
 }
 
 .testimonial .card .header-con {
